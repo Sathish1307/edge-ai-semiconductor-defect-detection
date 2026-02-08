@@ -13,20 +13,20 @@ Modern semiconductor fabrication generates a very large number of wafer and die 
 This project aims to address these challenges by building an AI-based defect classification system that can operate efficiently under edge-compute constraints.
 
 ---
-
 ## Defect Classes
-The system classifies inspection images into the following categories:
+The system classifies wafer inspection images into the following categories, aligned with the dataset structure and model output labels used in Phase-1:
 
-1. Clean  
-2. Scratch  
-3. Crack  
-4. Bridge  
-5. Open  
-6. Particle / Contamination  
-7. CMP Scratch  
-8. Other  
+1. center
+2. clean
+3. donut
+4. edge_loc
+5. edge_ring
+6. loc
+7. near_full 
+8. scratch  
+9. other
 
-These classes are chosen based on common semiconductor manufacturing defects and visual separability in inspection images.
+These classes represent commonly observed wafer-level defect patterns and spatial defect distributions used in semiconductor manufacturing inspection.
 
 ---
 
@@ -50,6 +50,9 @@ Images are organized into class-wise folders to support supervised learning.
 4. Exporting the trained model to ONNX format for edge portability
 
 The emphasis is on achieving a balance between accuracy and model size.
+
+The trained Phase-1 model is exported in ONNX format to support portability and edge deployment workflows.
+
 
 ---
 
