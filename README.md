@@ -71,4 +71,17 @@ The trained model is designed to be portable to edge environments. In later phas
 
 ---
 
+## Dataset Access
+
+Due to size constraints, the full dataset is not hosted directly in this GitHub repository.
+
+The complete dataset (train/validation/test splits with class-wise organization) is available as a ZIP file at the following link:
+
+ Dataset ZIP: https://drive.google.com/file/d/1rL4r2RSXXkeC-MuFgQvt5gifkmJeN1pZ/view?usp=sharing 
+
+The dataset structure exactly matches the folder layout used in this repository and the class order used by the trained ONNX model.
+
+
+---
 ## Repository Structure
+
