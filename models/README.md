@@ -4,7 +4,7 @@ This folder contains trained machine learning models for the semiconductor defec
 
 ## Phase-1 Model
 - Format: ONNX
-- File: wafer_defect_classifier.onnx
+- File: wafer_final_best.onnx
 - Task: Multi-class wafer defect classification
 - Classes:
   - center
