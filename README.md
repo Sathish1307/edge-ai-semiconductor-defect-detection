@@ -39,6 +39,12 @@ The dataset is created using publicly available semiconductor inspection images 
 - Total images: ≥ 500 (balanced across classes)
 - Split: Train / Validation / Test
 
+- Total images: 8,960
+- Split:
+  - Train: 6,515 (70%)
+  - Validation: 1,219 (15%)
+  - Test: 1,226 (15%)
+
 Images are organized into class-wise folders to support supervised learning.
 
 ---
