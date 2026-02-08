@@ -1,12 +1,12 @@
 # Results
 
-The Phase-1 ONNX model was evaluated on the test dataset.
+This folder contains evaluation results for trained models.
 
-Reported metrics include:
+Metrics reported include:
 - Accuracy
 - Precision
 - Recall
 - Confusion Matrix
+- Model size
 
-Detailed numerical results and plots will be updated as part of the final Phase-1 submission.
-
+Phase-1 results will be updated once the baseline model training is finalized.
