@@ -85,3 +85,37 @@ The dataset structure exactly matches the folder layout used in this repository 
 ---
 ## Repository Structure
 
+The repository is organized to clearly separate data, models, source code, and documentation, following best practices for machine learning projects.
+
+edge-ai-semiconductor-defect-detection/
+├── dataset/
+│   ├── train/
+│   ├── val/
+│   └── test/
+│
+├── docs/
+│   ├── dataset_description.md
+│   ├── dataset_source.md
+│   ├── labeling_guidelines.md
+│   └── README.md
+│
+├── models/
+│   ├── wafer_final_best.onnx
+│   └── README.md
+│
+├── results/
+│   └── README.md
+│
+├── src/
+│   ├── preprocessing/
+│   ├── training/
+│   ├── inference/
+│   └── README.md
+│
+├── notebooks/
+│
+└── README.md
+
+This structure ensures clear traceability between the dataset, trained ONNX model, evaluation results, and documentation used for Phase-1 submission.
+
+
